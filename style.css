@@ -18,6 +18,18 @@ body {
     margin: auto;
     text-align: center;
     position: relative;
+    width: 50%;
     top: 50%;
-    transform: translate3d(0,-50%,0);
+}
+
+a {
+    display: block;
+    height: 50px;
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.wynn {
+    margin-top: 10px;
 }
