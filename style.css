@@ -24,9 +24,9 @@ body {
 
 a {
     display: block;
-    height: 50px;
+    height: 100px;
     background-color: aquamarine;
-    padding: 10px;
+    font-size: 50px;
 }
 
 .wynn {
