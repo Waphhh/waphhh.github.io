@@ -1,3 +1,1 @@
-waphhh.github.io
-
-Something I do when I'm bored
+[Link to website](https://waphhh.github.io/)
