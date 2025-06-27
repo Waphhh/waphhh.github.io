@@ -59,6 +59,31 @@
 	};
 
 	// Animations
+	var smoothAnchorScroll = function () {
+		$('a[href^="#"]').on('click', function (e) {
+			var target = $(this.getAttribute('href'));
+			if (target.length) {
+				e.preventDefault();
+				$('html, body').animate({
+					scrollTop: target.offset().top
+				}, 600);
+			}
+		});
+	};	
+
+	var revealSidebarOnScroll = function () {
+		var $aside = $('#colorlib-aside');
+		$aside.hide(); // hide initially
+	
+		$(window).on('scroll', function () {
+			if ($(window).scrollTop() > $('#cover').height() - 50) {
+				$aside.fadeIn();
+			} else {
+				$aside.fadeOut();
+			}
+		});
+	};	
+
 	var contentWayPoint = function() {
 		var i = 0;
 		$('.animate-box').waypoint( function( direction ) {
@@ -296,6 +321,8 @@
 
 		clickMenu();
 		// navActive();
+		smoothAnchorScroll(); 
+		revealSidebarOnScroll();
 		navigationSection();
 		// windowScroll();
 
