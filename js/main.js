@@ -227,11 +227,6 @@
 
 	};
 
-
-
-
-
-
 	var sliderMain = function() {
 		
 	  	$('#colorlib-hero .flexslider').flexslider({
@@ -253,6 +248,66 @@
 
 	  	});
 
+	};
+
+	var enableProjectClickPopup = function () {
+		var popup = $('#project-popup');
+		var details = $('#project-details');
+		var closeBtn = $('.project-popup .close-btn');
+	
+		// Project data (adjust index order based on your layout)
+		var projectContent = [
+			{
+				title: "2023 NUS Chem•Comm competition",
+				description: `
+					<p>We explored the use of Carbon Capture Units in schools. Our proposal targeted a roadmap to carbon neutrality by 2030. <a href="https://vernonloh6.wixsite.com/chemdotcom" target="_blank">Visit site</a>.</p>
+					<img src="images/chemcom.jpg" style="width:100%; margin-top:10px;" />
+				`
+			},
+			{
+				title: "ISS Project",
+				description: `
+					<p>Investigated colour and IR heat absorption through an experiment with data collection and analysis.</p>
+					<img src="images/ISS.jpg" style="width:100%; margin-top:10px;" />
+				`
+			},
+			// Add more projects here...
+		];
+	
+		// Attach click event to all .project elements
+		$('.project').each(function (index) {
+			$(this).css('cursor', 'pointer'); // indicate it's clickable
+	
+			$(this).on('click', function (e) {
+				e.stopPropagation(); // prevent bubbling up
+				const project = projectContent[index] || { title: "Coming Soon", description: "<p>Details will be updated soon.</p>" };
+				details.html(`<h2>${project.title}</h2>${project.description}`);
+				popup.addClass('open');
+			});
+		});
+	
+		// Close button
+		closeBtn.on('click', function () {
+			popup.removeClass('open');
+		});
+	};
+
+	var owlCrouselFeatureSlide = function() {
+		$('.owl-carousel').owlCarousel({
+			animateOut: 'fadeOut',
+		   animateIn: 'fadeIn',
+		   autoplay: true,
+		   loop:true,
+		   margin:0,
+		   nav:true,
+		   dots: false,
+		   autoHeight: true,
+		   items: 1,
+		   navText: [
+		      "<i class='icon-arrow-left3 owl-direction'></i>",
+		      "<i class='icon-arrow-right3 owl-direction'></i>"
+	     	]
+		})
 	};
 
 	var stickyFunction = function() {
@@ -281,9 +336,6 @@
 
 				$("#sticky_item").stick_in_parent();
 			}
-			
-
-			
 
 		});
 
@@ -291,24 +343,6 @@
 
 		$("#sticky_item").stick_in_parent();
 
-	};
-
-	var owlCrouselFeatureSlide = function() {
-		$('.owl-carousel').owlCarousel({
-			animateOut: 'fadeOut',
-		   animateIn: 'fadeIn',
-		   autoplay: true,
-		   loop:true,
-		   margin:0,
-		   nav:true,
-		   dots: false,
-		   autoHeight: true,
-		   items: 1,
-		   navText: [
-		      "<i class='icon-arrow-left3 owl-direction'></i>",
-		      "<i class='icon-arrow-right3 owl-direction'></i>"
-	     	]
-		})
 	};
 
 	// Document on load.
@@ -329,8 +363,9 @@
 
 		mobileMenuOutsideClick();
 		sliderMain();
-		stickyFunction();
 		owlCrouselFeatureSlide();
+		enableProjectClickPopup();
+		stickyFunction(); // this function is broken leave as bottom
 	});
 
 

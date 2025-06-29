@@ -510,3 +510,64 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+.project-popup {
+  position: fixed;
+  top: 0;
+  left: -40%; /* hidden by default */
+  width: 40%;
+  height: 100%;
+  background: var(--bg-main);
+  color: var(--text-main);
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.25);
+  overflow-y: auto;
+  transition: left 0.3s ease-in-out;
+  z-index: 9999;
+  border-right: 3px solid var(--color-primary);
+}
+
+.project-popup.open {
+  left: 0;
+}
+
+.project-popup-content {
+  padding: 24px;
+  position: relative;
+}
+
+.project-popup-content h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  color: var(--text-900);
+  margin-bottom: 15px;
+}
+
+.project-popup-content p {
+  font-size: 15px;
+  color: var(--text-main);
+  margin-bottom: 1.2em;
+}
+
+.project-popup-content a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.project-popup-content a:hover {
+  color: var(--color-secondary);
+}
+
+.project-popup .close-btn {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--text-800);
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.project-popup .close-btn:hover {
+  color: var(--color-primary);
+}  
