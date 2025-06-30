@@ -546,6 +546,7 @@ body.offcanvas {
   font-size: 15px;
   color: var(--text-main);
   margin-bottom: 1.2em;
+  text-align: justify;
 }
 
 .project-popup-content a {
