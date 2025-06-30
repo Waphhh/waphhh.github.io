@@ -284,6 +284,7 @@
 					<p>You can preview our website below and click <a href="https://vernonloh6.wixsite.com/chemdotcom" target="_blank">here</a> to view our full website.</p>
 					<iframe src="https://vernonloh6.wixsite.com/chemdotcom" 
 						width="100%"
+						height="600px"
 						style="border: none;">
 					</iframe>
 				`
