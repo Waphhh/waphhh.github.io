@@ -292,8 +292,11 @@
 			{
 				title: "ISS Project",
 				description: `
-					<p>Investigated colour and IR heat absorption through an experiment with data collection and analysis.</p>
-					<img src="images/ISS.jpg" style="width:100%; margin-top:10px;" />
+					<p>For this projection, our goal was to investigate the effect of colour on the absorption of infrared radiation. This project marked my first full scientific investigation, where I was actively involved in every stage, from designing the experimental setup and conducting the tests, to gathering data and analyzing the results.</p>
+					<p>The team had to ensure that our methodology was consistent and that our findings were clearly interpreted. This hands-on experience gave me a deeper appreciation for the scientific process and strengthened my understanding of how data-driven conclusions are formed through observation and critical thinking.</p>
+					<p>This project introduced me to writing scientific litrerature such as writing our research proposal and report. Most importantly, it was the first time I had to use citations to quote where I found certain information from.</p>
+					<img src="images/ISSposter.png" style="width: 100%; margin-bottom: 10px;" />
+					<p>We also were tasked with presenting our findings in a poster format as shown above as well as in a video format. This was a key milestone for me, using canva to make our poster as well as recording and stitching together our video presentation.</p>
 				`
 			},
 			// Add more projects here...
