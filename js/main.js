@@ -261,16 +261,17 @@
 				title: "ElderGuide",
 				description: `
 					<p>For my year-end Capstone project, I collaborated with Heartware Network alongside 3 friends to help Singapore’s pioneer generation embrace technology. Through this meaningful experience, I have developed greater patience, compassion, and understanding. I also gained valuable insight into the lives of elderly individuals across Singapore and the often unseen challenges they face daily.</p>
-					<p>Our goal was to design a simple, user-friendly solution that would help to educate and empower seniors to embrace technology. Through this, we hoped to improve their confidence in using common technological items such as smartphones and the apps contained within.</p>
+					<p>Our objective was to design a simple, user-friendly digital solution to educate and empower seniors, helping them build confidence in using everyday technology such as smartphones and mobile apps.</p>
 					<div style="display: flex; align-items: flex-start; gap: 20px;">
 						<div style="flex: 1;">
-							<p>We decided on creating an app that would be able to teach the elderly how to use certain apps as well as provide an option for them to request help from HWN volunteers.</p>
-							<p>On the right is a screenshot of our app's home page. The app had an online library with useful e-learning resources that the elderly could watch and learn from in their own time. Additionally, the elderly could also go to the requests section to seek physical assistance from HWN volunteers.</p>
-							<p>Being designed for the Singapore elderly population, our app was also available in chinese, tamil and malay with many more accessibility functions to make our app useable.</p>
+							<p>After much discussion and feedback, we decided to develop an app tailored for elderly users. This app served two primary functions:</p>
+							<p>	1. An online learning library - offering accessible, bite-sized e-learning videos that seniors could watch at their own pace to learn how to use essential apps.</p>
+							<p>	2. A volunteer support system - allowing users to request in-person help from Heartware Network volunteers whenever they needed hands-on assistance.</p>
+							<p>Additionally, having understood the diverse linguistic needs of our elderly population, we made the app available in Chinese, Tamil, and Malay, and implemented accessibility features to ensure ease of use for seniors.</p>
 						</div>
 						<img src="images/capstone1.png" style="width: 50%; margin-top: 10px;" />
 					</div>
-					<p>Finally, at the end of our project, we were given the opportunity to present our work to our mentors and parents. This presentation was a great way to round up the project, being able to show our work to others as well as recieve feedback from many different people on how we could improve our app.</p>
+					<p>At the end of the project, we had the opportunity to present our work to our mentors and parents. This showcase was a fulfilling conclusion to the project. Not only were we able to share what we had created, but we also received constructive feedback from multiple perspectives on how our app could be further improved.</p>
 					<img src="images/capstone2.jpeg" style="width: 100%;" />
 				`
 			},
@@ -278,9 +279,9 @@
 				title: "2023 NUS Chem•Comm competition",
 				description: `
 					<p>In 2023, I had the opportunity to participate in the NUS Chem•Comm Competition, where my team focused on researching the impact of Carbon Capture Units (CCUs) as a strategy to help schools achieve carbon neutrality by 2030.</p>
-					<p>Being the chairperson of the group, apart from the basic task of introducing our group and our topic as well as closing our presentation, I was heavily involved in the research and making of our website.</p>
-					<p>One of the most memorable parts was creating the quiz section of the website. The qiuz section added an element of gamifaction to our website allowing for greater engagement. As we coded out the game from scratch, it was an invaluable learning experience and brought a change of pace to the endless researching. You can try the quiz on its own <a href="https://waphhh.github.io/chemdotcom/" target="_blank">here</a>.</p>
-					<p>This project not only deepened my interest in Chemistry, but also reinforced my commitment to environmental sustainability and protecting the planet for future generations. It was a valuable experience that allowed me to combine research, communication, and teamwork to address a real-world problem.</p>
+					<p>As the chairperson, I was responsible not only for introducing our team and wrapping up our presentation, but also played a significant role in conducting research and developing our website.</p>
+					<p>One of the most memorable aspects was designing the quiz section of the site. This feature added a fun, interactive element through gamification, helping to boost user engagement. We coded the quiz entirely from scratch, making it a valuable hands-on learning experience that provided a refreshing break from continuous research. You can try the quiz on its own <a href="https://waphhh.github.io/chemdotcom/" target="_blank">here</a>.</p>
+					<p>This project deepened my passion for Chemistry and strengthened my commitment to environmental sustainability. It was a meaningful experience that allowed me to blend research, communication, and teamwork in tackling a real-world issue.</p>
 					<p>You can preview our website below and click <a href="https://vernonloh6.wixsite.com/chemdotcom" target="_blank">here</a> to view our full website.</p>
 					<iframe src="https://vernonloh6.wixsite.com/chemdotcom" 
 						width="100%"
@@ -292,11 +293,25 @@
 			{
 				title: "ISS Project",
 				description: `
-					<p>For this projection, our goal was to investigate the effect of colour on the absorption of infrared radiation. This project marked my first full scientific investigation, where I was actively involved in every stage, from designing the experimental setup and conducting the tests, to gathering data and analyzing the results.</p>
-					<p>The team had to ensure that our methodology was consistent and that our findings were clearly interpreted. This hands-on experience gave me a deeper appreciation for the scientific process and strengthened my understanding of how data-driven conclusions are formed through observation and critical thinking.</p>
-					<p>This project introduced me to writing scientific litrerature such as writing our research proposal and report. Most importantly, it was the first time I had to use citations to quote where I found certain information from.</p>
+					<p>For this project, our goal was to investigate the effect of colour on the absorption of infrared radiation. This project marked my first full scientific investigation, where I was actively involved in every stage, from designing the experimental setup and conducting the tests, to gathering data and analyzing the results.</p>
+					<p>Our team had to ensure that our methodology remained consistent and that our findings were clearly interpreted. This hands-on experience gave me a deeper appreciation for the scientific process, and it strengthened my ability to draw data-driven conclusions through careful observation and critical thinking.</p>
+					<p>It was also my first introduction to writing scientific literature, including a formal research proposal and final report. Importantly, I learnt how to properly use citations to credit sources, a key part in maintaining academic integrity and research transparency.</p>
 					<img src="images/ISSposter.png" style="width: 100%; margin-bottom: 10px;" />
-					<p>We also were tasked with presenting our findings in a poster format as shown above as well as in a video format. This was a key milestone for me, using canva to make our poster as well as recording and stitching together our video presentation.</p>
+					<p>In addition to the written components, we presented our findings in both poster and video formats. This was a significant milestone for me, as I used Canva to design our poster and took on the task of recording and editing our video presentation.</p>
+				`
+			},
+			{
+				title: "ARTC Camp",
+				description: `
+						<p>During the ARTC camp, we were challenged to design a product that could enhance the effectiveness of the recycling process. My team worked together to develop a prototype for a sensor-based device that could detect whether bottles were properly cleaned before being allowed to be placed in the recycling bin. This would help prevent contamination, improving the overall efficiency and quality of recycling efforts.</p>
+					`
+			},
+			{
+				title: "2023 SYF Competition",
+				description: `
+					<p>I was proud to be part of the SST Guitar Ensemble, which was awarded Distinction at the 2023 Singapore Youth Festival (SYF) Competition. This experience was a golden opportunity for me to challenge myself by learning and performing complex musical pieces that demanded skill, focus, and discipline.</p>
+					<p>As Vice Chairperson of the ensemble at the time, I not only strived to master each piece to the best of my abilities, but also took on a leadership role in motivating and supporting my fellow guitarists. I helped to ensure that every guitarist was able to play the pieces fluently as well as keeping them motivated during practice.</p>
+					<p>This experience helped deepen my love and appretiation for music. Additionally, having to stay calm and collected on stage while performing on stage infront of a live audience helped boost my self-confidence and strengthened my ability to handle pressure.</p>
 				`
 			},
 			// Add more projects here...
