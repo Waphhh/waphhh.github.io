@@ -304,6 +304,7 @@
 				title: "ARTC Camp",
 				description: `
 						<p>During the ARTC camp, we were challenged to design a product that could enhance the effectiveness of the recycling process. My team worked together to develop a prototype for a sensor-based device that could detect whether bottles were properly cleaned before being allowed to be placed in the recycling bin. This would help prevent contamination, improving the overall efficiency and quality of recycling efforts.</p>
+						<p>My role was to help with the implementation of the functionality of our prototype. This experience deepened my interest in sustainability and innovation, and gave me valuable hands-on experience in collaborative problem-solving and design thinking.</p>
 					`
 			},
 			{
@@ -314,7 +315,27 @@
 					<p>This experience helped deepen my love and appretiation for music. Additionally, having to stay calm and collected on stage while performing on stage infront of a live audience helped boost my self-confidence and strengthened my ability to handle pressure.</p>
 				`
 			},
-			// Add more projects here...
+			{
+				title: "2024 Performance at Instana",
+				description: `
+					<p>The SST Guitar Ensemble was honoured to be invited to perform at the Istana for Hari Raya Haji. This was a truly eye-opening experience, as it gave us the rare opportunity to perform live for a public audience at a prestigious venue. It was both exciting and demanding as we had to prepare and memorise a full set of pieces to fill a 1 hour performance slot and perform outdoors in the sweltering heat.</p>
+					<p>Despite the challenges, this experience taught me the importance of resilience, adaptability, and staying calm under pressure. It also deepened my appreciation for performing live and music's ability to bring communities together.</p>
+				`
+			},
+			{
+				title: "2024 SUTD-SST-NP Big D Camp",
+				description: `
+					<p>The SUTD-SST-NP Big D Camp taught me the importance of effective teamwork, time management and the need to be able to perform under pressure. Over the course of just three days, my team and I had to quickly align on an idea, design a product, and build a working prototype. This intense experience sharpened my focus, collaboration skills, and ability to deliver results within tight deadlines.</p>
+					<p>During the course of the camp, our team faced the challenge of coming up with an idea. Upon choosing an initial idea, we went straight to work to get a prototype done. However, after the first day we found out that our idea was not possible with the given resources, hence we had to think of another idea and complete it within the deadline.</p>
+				`
+			},
+			{
+				title: "IDC Challenge",
+				description: `
+					<p>This challenge gave me the opportunity to collaborate with my teammates to build a disaster rescue robot. Our project involved integrating an AI system running on a Raspberry Pi with the robot's movement, control, and sensors, which were managed through an Arduino Uno. This hands-on experience strengthened my skills in Python, AI, and cross-platform integration.</p>
+					<p>During this challenge, I also had to work with people specialised in different skills. As there was the robot mainly consisted of a hardware section and a software section, I worked with my teamates to intergrate both parts together, leveraging each others strengths to complete the challenge.</p>
+				`
+			},
 		];
 	
 		// Attach click event to all .project elements
