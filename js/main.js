@@ -304,36 +304,36 @@
 				title: "ARTC Camp",
 				description: `
 						<p>During the ARTC camp, we were challenged to design a product that could enhance the effectiveness of the recycling process. My team worked together to develop a prototype for a sensor-based device that could detect whether bottles were properly cleaned before being allowed to be placed in the recycling bin. This would help prevent contamination, improving the overall efficiency and quality of recycling efforts.</p>
-						<p>My role was to help with the implementation of the functionality of our prototype. This experience deepened my interest in sustainability and innovation, and gave me valuable hands-on experience in collaborative problem-solving and design thinking.</p>
+						<p>I contributed to the development and implementation of the prototype's functional components. This experience not only deepened my interest in sustainability and innovation but also provided valuable hands-on experience in collaborative problem-solving and design thinking.</p>
 					`
 			},
 			{
 				title: "2023 SYF Competition",
 				description: `
 					<p>I was proud to be part of the SST Guitar Ensemble, which was awarded Distinction at the 2023 Singapore Youth Festival (SYF) Competition. This experience was a golden opportunity for me to challenge myself by learning and performing complex musical pieces that demanded skill, focus, and discipline.</p>
-					<p>As Vice Chairperson of the ensemble at the time, I not only strived to master each piece to the best of my abilities, but also took on a leadership role in motivating and supporting my fellow guitarists. I helped to ensure that every guitarist was able to play the pieces fluently as well as keeping them motivated during practice.</p>
-					<p>This experience helped deepen my love and appretiation for music. Additionally, having to stay calm and collected on stage while performing on stage infront of a live audience helped boost my self-confidence and strengthened my ability to handle pressure.</p>
+					<p>As Vice Chairperson of the ensemble at the time, I not only worked hard to master each piece, but also took on a leadership role in motivating and supporting my fellow guitarists. I helped ensure that every member was confident in their performance and stayed committed throughout our intensive rehearsals.</p>
+					<p>This experience deepened my love and appreciation for music. It also taught me the importance of teamwork and resilience. Performing in front of a live audience required me to stay calm and composed under pressure, something that significantly boosted my self-confidence.</p>
 				`
 			},
 			{
 				title: "2024 Performance at Instana",
 				description: `
 					<p>The SST Guitar Ensemble was honoured to be invited to perform at the Istana for Hari Raya Haji. This was a truly eye-opening experience, as it gave us the rare opportunity to perform live for a public audience at a prestigious venue. It was both exciting and demanding as we had to prepare and memorise a full set of pieces to fill a 1 hour performance slot and perform outdoors in the sweltering heat.</p>
-					<p>Despite the challenges, this experience taught me the importance of resilience, adaptability, and staying calm under pressure. It also deepened my appreciation for performing live and music's ability to bring communities together.</p>
+					<p>Despite the challenges, this experience taught me the importance of resilience, adaptability, and staying composed under pressure. It also deepened my appreciation for live performance and music’s unique ability to bring communities together.</p>
 				`
 			},
 			{
 				title: "2024 SUTD-SST-NP Big D Camp",
 				description: `
 					<p>The SUTD-SST-NP Big D Camp taught me the importance of effective teamwork, time management and the need to be able to perform under pressure. Over the course of just three days, my team and I had to quickly align on an idea, design a product, and build a working prototype. This intense experience sharpened my focus, collaboration skills, and ability to deliver results within tight deadlines.</p>
-					<p>During the course of the camp, our team faced the challenge of coming up with an idea. Upon choosing an initial idea, we went straight to work to get a prototype done. However, after the first day we found out that our idea was not possible with the given resources, hence we had to think of another idea and complete it within the deadline.</p>
+					<p>One major challenge we faced was pivoting our project idea. After committing to an initial concept and starting work on the prototype, we realised by the end of the first day that it was not feasible with the resources provided. We had to quickly regroup, come up with a new idea, and complete the entire prototype within the remaining time. This taught me how to adapt quickly, remain solution-oriented, and stay composed in high-pressure situations.</p>
 				`
 			},
 			{
 				title: "IDC Challenge",
 				description: `
 					<p>This challenge gave me the opportunity to collaborate with my teammates to build a disaster rescue robot. Our project involved integrating an AI system running on a Raspberry Pi with the robot's movement, control, and sensors, which were managed through an Arduino Uno. This hands-on experience strengthened my skills in Python, AI, and cross-platform integration.</p>
-					<p>During this challenge, I also had to work with people specialised in different skills. As there was the robot mainly consisted of a hardware section and a software section, I worked with my teamates to intergrate both parts together, leveraging each others strengths to complete the challenge.</p>
+					<p>Throughout the challenge, I worked closely with teammates who had different areas of expertise. Since the robot consisted of both hardware and software components, I collaborated with others to integrate the two systems seamlessly. By leveraging each other’s strengths, we were able to complete the project effectively and learn from one another in the process.</p>
 				`
 			},
 		];
