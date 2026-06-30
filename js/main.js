@@ -258,6 +258,36 @@
 		// Project data (adjust index order based on your layout)
 		var projectContent = [
 			{
+				title: "NYCLC",
+				description: `
+					<p>Over the June holidays of year 2 semester 1, I had the opportunity to participate in the National Youth Council Leadership Camp (NYCLC). Organised by the National Youth Council (NYC), it was an eye opening experience allowing me to deepen my understanding of issues Singapore faces, both past and present as well as further helped in my development as a youth leader.</p>
+				`
+			},
+			{
+				title: "Rhapsodie En Danse",
+				description: `
+					<p>The Rhapsodie En Danse concert was a concert put together by the plucked side of NP Strings and the SP Guitarists. Through this performance, I was once again back at the School of the Arts (SOTA). Through all the grueling practices, everyone persevered and pulled through to put on this amazing performance.</p>
+				`
+			},
+			{
+				title: "NAK 180th Anniversary Gala Dinner",
+				description: `
+					<p>On the 5th of November 2025, I was given the opportunity to perform at the Ngee Ann Kongsi (NAK) 180th Anniversary Gala Dinner. Through this experience, I have been able to further develop my guitar skills as well as my discipline, teamwork, and confidence. I am grateful for the opportunity to represent NP and my CCA, NP Strings at such a prestigious event.</p>
+				`
+			},
+			{
+				title: "LSCT Open House 2026",
+				description: `
+					<p>As a member of the LSCT Operatives, I helped interact with the public. Being a tour guide, I helped guide groups of students through the various courses offered at the School of Life Sciences & Chemical Technology (LSCT) while answering their various questions. When not conducting tours, I also initiated conversations with members of the public to help guide them to what they were looking for.</p>
+				`
+			},
+			{
+				title: "Arts Fiesta 2025",
+				description: `
+					<p>On the 24th of November 2025, I performed on stage at the NP music box both as a player and as an emcee. The preparation for this performance had started as soon as I had joined the CCA, NP Strings and through this opportunity, I gained valuable experiences and forged bonds with many of my CCA mates.</p>
+				`
+			},
+			{
 				title: "ElderGuide",
 				description: `
 					<p>For my year-end Capstone project, I collaborated with Heartware Network alongside 3 friends to help Singapore’s pioneer generation embrace technology. Through this meaningful experience, I have developed greater patience, compassion, and understanding. I also gained valuable insight into the lives of elderly individuals across Singapore and the often unseen challenges they face daily.</p>
